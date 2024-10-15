@@ -1,0 +1,114 @@
+@font-face
+{
+    font-family: 'Chrono';
+    src: url('/font/Chrono.ttf');
+}
+body 
+{
+    background-color: #1f3775;
+    overflow: hidden;
+}
+h1 
+{
+    font-family: 'Chrono',serif;
+    color: #b22222;
+    font-size: 7rem;
+    opacity: 0;
+}
+.logs
+{
+    position: relative;
+    width: 31rem;
+    height: 30rem;
+}
+.contBtn
+{
+    width: 30rem;
+    height: 3rem;
+    opacity: 0;
+    pointer-events: none;
+}
+.btn
+{
+    max-width: 7rem;
+}
+.btn-danger
+{
+    background-color: #b22222;
+    border-color: #b22222; 
+}
+.btn-danger:hover 
+{
+    background-color: #a81e1e; 
+    border-color: #a81e1e;
+}
+
+.gif
+{
+    position: relative;
+}
+.gif img 
+{
+    position: relative;
+    border: 1px solid #b22222;
+    border-radius: 50%;
+    width: 10.625rem;
+    height: 10.625rem;
+    cursor: pointer;
+}
+.footer
+{
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+}
+#frame 
+{
+    width: 150vw;
+    height: 150vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: #b22222;
+    clip-path: circle(1%);
+    transition: clip-path 0.5s ease-in-out;
+    z-index: -1;
+}
+.toggleFrame
+{
+    animation: dominio 0.8s cubic-bezier(0.83, 0, 0.17, 1) forwards;
+}
+.toggleShowUp
+{
+    
+    animation: showUp 0.5s  forwards ;
+    animation-delay: 0.6s;
+    pointer-events: all;
+}
+.fontSizeLi
+{
+    font-size: 1.3rem;
+}
+.rpgLogo
+{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -57%); 
+    width: 32rem;
+    height: 32rem;
+    background: url('../img/android-chrome-512x512-2.png');
+    opacity: 0;
+}
+@keyframes dominio
+{
+    0%,100%{clip-path: circle(1%);}
+    50%{clip-path: circle(200%);}
+}
+@keyframes showUp 
+{   
+    to{opacity: 1;}    
+}

@@ -1,0 +1,32 @@
+@font-face
+{
+    font-family: 'Chrono';
+    src: url('/font/Chrono.ttf');
+}
+body 
+{
+    background-color: #1f3775;
+    overflow: hidden;
+}
+.navbar{
+    position:absolute;
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.containerNames{
+    font-family: 'Algerian';
+    background-color: #192e5c;
+    border-radius: 10%;
+    width: 50rem;
+    height: 15rem;
+}
+.spanName{
+    font-size: 3rem;
+    color: #b22222;
+}
+.btn
+{
+    max-width: 7rem;
+}
