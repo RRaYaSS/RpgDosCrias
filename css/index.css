@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: 'Chrono';
-    src: url('/font/Chrono.ttf');
+    src: url('../font/Chrono.ttf');
 }
 body 
 {
