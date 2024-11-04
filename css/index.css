@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+@font-face
+{
+    font-family: 'Chrono';
+    src: url('../font/Chrono.ttf');
+}
+body 
+{
+    background-color: #1f3775;
+    overflow: hidden;
+}
+>>>>>>> 7011f460af7d77e54eeb35614f9a4a86f001c3ba
 h1 
 {
     font-family: 'Chrono',serif;
