@@ -1,12 +1,16 @@
-export function showDescFuncAligment(showDesc,result)
-{
+import {aligmentAndDescription} from '../configs/constAligment.mjs'
+import {classesObj} from '../configs/constClass.mjs'
+export function showDescFuncAligment(showDesc,stringAligment)
+{   
+    
     if(showDesc)
-    {
+    { 
+        let result=[]
         let descri = aligmentAndDescription[stringAligment]
-        result= `Seu alinhamento é : ${stringAligment}\nDescrição:\n ${descri}`
+        result.push(stringAligment,descri)
         return result
     }
-    return result
+    return stringAligment
 }
 export function showDescFuncRace(showDesc,race,subRaces,geral,desc)
 {

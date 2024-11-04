@@ -1,8 +1,7 @@
-import {genereteName} from './genereteNameV2.mjs';
+import { genereteName } from './genereteNameV2.mjs'
 
-const gerarNovanmente = document.querySelector('.btn-again');
-const spanName = document.querySelector('.spanName');
-const btnCopy= document.querySelector('.btn-copy');
+const gerarNovanmente = document.querySelector('.btn-again')
+const spanName = document.querySelector('.spanName')
 
 gerarNovanmente.addEventListener('click',(e)=>{
     e.preventDefault();
@@ -10,18 +9,4 @@ gerarNovanmente.addEventListener('click',(e)=>{
     console.log(result)
     spanName.textContent = result;
     
-});
-
-btnCopy.addEventListener('click', ()=>{
-    
-     let tempInput = document.createElement('textarea');
-     tempInput.value = spanName.textContent; 
- 
-     document.body.appendChild(tempInput);
- 
-     tempInput.select();
- 
-     document.execCommand('copy');
- 
-     document.body.removeChild(tempInput);
-});
+})

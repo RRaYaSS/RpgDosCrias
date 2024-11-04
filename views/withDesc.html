@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Personagem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/background.css">
+    <link rel="stylesheet" href="../css/personagens.css">
+    <link rel="stylesheet" href="../css/wDesc.css">
+    <link rel="shortcut icon" href="../img/favicon-16x16.png" type="image/x-icon">
+</head>
+<body class="d-flex justify-content-center align-items-center flex-column vh-100">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary "data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">RPG Dos Crias</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="gerarNome.html">Gerar Nome</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="gerarPersonagem.html">Gerar personagen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Gerar Fixa</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        
+        <div class="d-flex flex-column align-items-center justify-content-center gap-4">
+        <div class="ftPerson">
+
+        </div>
+        <div class="conteinerPersonageDesc d-flex  align-items-center flex-column gap-2">
+            <div class="containerPersonagen2 text-center ">
+                <p>Nome</p>
+                <span class="nome">-------------</span>
+
+            </div>
+            <div class="containerPersonagen2  text-center ">
+                <p>Alinhamento</p>
+                <span class="alinhamento">-------------</span >
+                    <div class="desc">
+                        <div >
+                            <span class="desc" id="aligmentDesc"></span>
+                        </div>
+                    </div>
+            </div>  
+            <div class="containerPersonagen2 text-center ">
+                <p>Raça</p>
+                <span class="raça">-------------</span>
+                <div class="desc">
+                    <div >
+                        <span class="desc" id="raceDesc"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="containerPersonagen2 text-center ">
+                <p>Sub-Raça</p>
+                <span class="subRaça">-------------</span>
+                <div class="desc">
+                    <span id="subRaceDesc"></span>
+                </div>
+            </div>
+            <div class="containerPersonagen2  text-center  ">
+                <p>Classe</p>
+                <span class="classe">-------------</span>
+                <div class="desc text-start p-2 m-2">
+                    <div><p class="mt-2"> Vída:</p><span class="vida"></span></div>
+                    <div><p class="mt-2">Proeficiencia:</p><span class="proeficiencia"></span></div>
+                    <div><p class="mt-2">Equipamentos:</p><span class="equipamentos"></span></div>
+                    <div><p class="mt-2">Skils:</p><span class="skills"></span></div>
+                </div>
+            </div>  
+            
+
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="#" class="btn btn-danger" id="newPerson">Gerar Novamente</a>
+            <a href="whitoutDesc.html"  class="btn btn-primary">Gerar Sem Descrição</a>
+        </div>
+        <div class="form-check text-white">
+            <input class="form-check-input" type="checkbox" value="true" id="check">
+            <label class="form-check-label" for="flexCheckDefault">
+            Totalmente Aleatorio
+            </label>
+        </div>
+    </div>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module"  src="../Js/wDescView.mjs"></script>
+</body>
+</html>

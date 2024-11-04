@@ -12,5 +12,4 @@ gif.addEventListener('click',()=>{
     })
     btns.classList.add('toggleShowUp')
     footer.classList.add('toggleShowUp')
-    logoRpg.classList.add('toggleShowUp')
 })

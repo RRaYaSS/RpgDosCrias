@@ -1,5 +1,5 @@
-import {aligmentAndDescription} from '../configs/constAligment.mjs'
-import {randomMax} from './functions.mjs'
+import { aligmentAndDescription } from '../configs/constAligment.mjs'
+import { randomMax } from './functions.mjs'
 import { showDescFuncAligment } from './showDescFunctions.mjs'
 
 export function genereteAligment(showDesc)
@@ -9,3 +9,4 @@ export function genereteAligment(showDesc)
 
     return showDescFuncAligment(showDesc,stringAligment)
 }
+console.log(genereteAligment(true))

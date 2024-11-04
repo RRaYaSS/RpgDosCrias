@@ -9,7 +9,7 @@ export function genereteRaceAndSubRace(showDesc)
     const subRacesKeys= Object.keys(subRaces)
     let desc=""
     let stringSubRace=""
-    
+     
     if(subRacesKeys.length!=0)
     {     
         let selectedSubRace= subRacesKeys[Math.floor(Math. random() * subRacesKeys.length )]

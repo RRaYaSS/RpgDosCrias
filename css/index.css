@@ -1,13 +1,3 @@
-@font-face
-{
-    font-family: 'Chrono';
-    src: url('/font/Chrono.ttf');
-}
-body 
-{
-    background-color: #1f3775;
-    overflow: hidden;
-}
 h1 
 {
     font-family: 'Chrono',serif;
@@ -28,20 +18,7 @@ h1
     opacity: 0;
     pointer-events: none;
 }
-.btn
-{
-    max-width: 7rem;
-}
-.btn-danger
-{
-    background-color: #b22222;
-    border-color: #b22222; 
-}
-.btn-danger:hover 
-{
-    background-color: #a81e1e; 
-    border-color: #a81e1e;
-}
+
 
 .gif
 {
@@ -92,17 +69,7 @@ h1
 {
     font-size: 1.3rem;
 }
-.rpgLogo
-{   
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55%, -57%); 
-    width: 32rem;
-    height: 32rem;
-    background: url('../img/android-chrome-512x512-2.png');
-    opacity: 0;
-}
+
 @keyframes dominio
 {
     0%,100%{clip-path: circle(1%);}

@@ -1,6 +1,6 @@
-import { letters } from "../configs/constLetters.mjs";
-import { max,min, porcent, porcentDoubleVowel } from "../configs/config.mjs";
-import { oneHundred,fifthyFifthyFunc,randomMax } from "./functions.mjs";
+import { letters } from '../configs/constLetters.mjs';
+import { max, min,porcent, porcentDoubleVowel } from '../configs/config.mjs';
+import { oneHundred,fifthyFifthyFunc,randomMax } from './functions.mjs';
 
 function isVowelGenerete()
 {
@@ -67,4 +67,4 @@ export function genereteName()
     let name =nameArray.join('') ;
     return name;   
 }
-// console.log(genereteName())
+console.log(genereteName())

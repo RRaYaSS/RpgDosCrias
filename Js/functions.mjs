@@ -1,4 +1,4 @@
-import { oneHundredOne,fifthyFifthy} from "../configs/config.mjs";
+import { oneHundredOne, fifthyFifthy } from "../configs/config.mjs";
 export function oneHundred()
 {
     return Math.floor(Math.random()*oneHundredOne);
