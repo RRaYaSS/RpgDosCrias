@@ -1,3 +1,4 @@
+// objeto usado na geração de nome, separados por vogal, consoante e combo de 2 consoantes
 export const letters = {
     vowel: ["A", "E", "I", "O", "U","Y"],
     consonant: ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P",  "R", "S", "T", "V", "W", "X",  "Z"],

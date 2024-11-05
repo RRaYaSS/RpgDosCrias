@@ -1,3 +1,4 @@
+// objeto quer armazena as classes juntamente com os seguintes atributos em arrays diferentes: Vida, Proeficiência, Equipamento e Skills
 export const classesObj = {
   "Bárbaro": [
     [

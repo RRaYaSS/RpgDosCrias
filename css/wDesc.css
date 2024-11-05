@@ -1,8 +1,4 @@
-body
-{
- overflow-y: auto;
- overflow-x: hidden;
-}
+/* css usado na view whitDesc */
 .conteinerPersonageDesc
 {
     background-color: #f4e1c1;
@@ -20,8 +16,4 @@ body
     width: 100%;
     min-height: 3rem;
     height: auto;
-}
-.ftPerson
-{
-    margin-top: 30rem;
 }

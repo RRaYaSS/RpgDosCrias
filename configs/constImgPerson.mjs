@@ -1,3 +1,4 @@
+// usado na geração de personagens, caminho para as fotos de cara raça
 export const ImgRace = {
     "Tiefling":  'url(../img/personagens/Tiefling.png)',
 

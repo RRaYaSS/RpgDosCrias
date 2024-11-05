@@ -1,4 +1,4 @@
-// quando usar o module sp faz ele receber as coisas, sem colocar nome ou colocar nome e no final module.exports = aligmentAndDescription;/ module é so para ambiente node 
+//objeto quer armazena o alinhamento e a descrição
 export const aligmentAndDescription=  {
     "Lawful Good" :"Um personagem ordeiro e bom age tipicamente com compaixão e sempre com honra e senso de dever. Porém, personagens ordeiros e bons vão se arrepender ao fazerem qualquer ação que acreditem conflitar com o seu código, mesmo que em prol do bem maior. Estes personagens incluem nobres cavaleiros, paladinos e muitos anões. Criaturas ordeiras e boas incluem dragões dourados.",
     

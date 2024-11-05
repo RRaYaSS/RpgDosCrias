@@ -1,3 +1,4 @@
+// objeto usado no gerador de personagens, neste obj guardo se uma classe é boa ou pos(a classe faz sentido com a raça por causa dos atributos,lore etc) se é ruim ou bad(nõa faz sentido com a raça) ou se é ok(uma sub-raça é vantajoso usar a classe mas outra não). Como os elfos apresenta mais sub-raças tive que criar uma novo atributo chamado negro, para os elfos negros
 export const raceClasses = {
     "Tiefling": {
         pos: ["Bardo", "Bruxo", "Druida", "Feiticeiro", "Mago", "Paladino"],

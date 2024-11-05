@@ -1,3 +1,4 @@
+// objeto que armazeno as raças, sub-raças e suas descrições para poder gerer personagens
 export const racesAndSubracesDescription= 
 {
     "Tiefling":{"Geral":[" tamanho humano. Visão no Escuro: Graças a sua herança infernal, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.Resistência Infernal: Você possui resistência a dano de fogo.Legado Infernal: Você conhece o truque taumaturgia. Quando você atingir o 3° nível, você poderá conjurar a magia repreensão infernal como uma magia de 2° nível. Quando você atingir o 5° nível, você também poderá conjurar a magia escuridão. Você precisa terminar um descanso longo para poder usar as magias desse traço novamente. Sua habilidade de conjuração para essas magias é Carisma."]},
