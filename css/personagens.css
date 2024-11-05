@@ -1,3 +1,8 @@
+body
+{
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
 .containerPersonagen{
     background-color: #f4e1c1;
     width: 30rem;
@@ -30,4 +35,8 @@
     height: 15rem;
     border: 15px groove #5c4033;
     border-radius: 12px;
+}
+.containerPerson
+{
+    padding-top: 20vh; 
 }

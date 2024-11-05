@@ -1,8 +1,10 @@
 body
 {
- overflow: auto;
+ overflow-y: auto;
+ overflow-x: hidden;
 }
-.conteinerPersonageDesc{
+.conteinerPersonageDesc
+{
     background-color: #f4e1c1;
     min-width: 40rem;
     min-height: 45rem;
@@ -12,12 +14,14 @@ body
     overflow-y: auto;
     overflow-x: hidden; 
 }
-.desc{
+.desc
+{
 
     width: 100%;
     min-height: 3rem;
     height: auto;
 }
-.ftPerson{
+.ftPerson
+{
     margin-top: 30rem;
 }
