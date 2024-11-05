@@ -1,4 +1,3 @@
-// Importa as configurações de imagem para as raças e as funções de geração de alinhamento, classe, nome e raça/sub-raça.
 import { ImgRace } from "../configs/constImgPerson.mjs";
 import { genereteAligment } from "./genereteAlignment.mjs";
 import { genereteClass } from "./genereteClass.mjs";

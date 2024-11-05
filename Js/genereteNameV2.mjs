@@ -1,11 +1,11 @@
 // Importa constantes e funções necessárias para a geração de nomes.
 import { letters } from '../configs/constLetters.mjs'; // Letras usadas na geração de nomes.
 import { max, min, porcent, porcentDoubleVowel } from '../configs/config.mjs'; // Limites e porcentagens para a geração de nomes.
-import { oneHundred, fiftyFiftyFunc, randomMax } from './functions.mjs'; // Funções auxiliares para gerar números aleatórios e outros cálculos.
+import { oneHundred, fifthyFifthyFunc, randomMax } from './functions.mjs'; // Funções auxiliares para gerar números aleatórios e outros cálculos.
 
 // Função que determina se deve gerar uma vogal (50% de chance).
 function isVowelGenerete() {
-    if (fiftyFiftyFunc() == 0) { // Chama uma função que retorna 0 ou 1.
+    if (fifthyFifthyFunc() == 0) { // Chama uma função que retorna 0 ou 1.
         return false; // Se o resultado for 0, não gera vogal.
     }
     return true; // Caso contrário, gera vogal.
@@ -67,3 +67,4 @@ export function genereteName() {
     let name = nameArray.join(''); // Junta os caracteres gerados em uma única string.
     return name; // Retorna o nome gerado.
 }
+console.log(genereteName())
