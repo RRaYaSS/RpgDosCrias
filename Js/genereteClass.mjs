@@ -30,7 +30,7 @@ export function genereteClass(race, subRace, showDesc, randomClassRace) {
     // Desestrutura o objeto raceClasses para acessar os arrays de classes positivas, negativas e neutras.
     let { pos, bad, ok, ...other } = raceClasses[race];
 
-    if (lengthArray != 1) {
+    if (lengthArray == 1) {
         // Para humanos, retorna uma classe positiva aleatória.
         return showDescFuncClasse(showDesc, genereteClassNotMuchRandom(pos, pos.length));
     } else if (lengthArray == 2) {
