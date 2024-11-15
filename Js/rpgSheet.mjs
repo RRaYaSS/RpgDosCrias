@@ -104,7 +104,6 @@ export function genereteSheet(race,classe,sheet,numbers,positiveAtributes,racesA
         sheet[sheetKeys[i]]=0
     }
     let arrayAtributes = positiveAtributes[classe]
-    console.log(classe)
     // Seleciona os números mais altos conforme o número de atributos da classe e embaralha
     let highNumbers = shuffleArray(numbers.slice(0, arrayAtributes.length));
     //Seleciona os números que sobraram e embaralha

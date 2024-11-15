@@ -17,7 +17,7 @@ const subRacas = {
 // Seleciona os elementos dos selects
 const selectRaca = document.querySelector("#raça");
 const selectSubRaca = document.querySelector("#sub-raça");
-const selectClass= document.querySelector("#classe").value;
+const selectClass= document.querySelector("#classe");
 const ftRace = document.querySelector('.ftPerson');
 const sheetBtn = document.querySelector('#sheetBtn');
 const divForça =document.querySelector('.força')
@@ -37,9 +37,8 @@ const allCol =[...document.querySelectorAll('.pericia')]
 
 
 // Escuta mudanças no select de raça
-selectRaca.addEventListener("change", function() {
+selectRaca.addEventListener('change', () =>{
     const racaSelecionada = selectRaca.value;
-
     // Limpa as opções do select de sub-raça
     selectSubRaca.innerHTML = '<option selected>Escolha a Sub-raça</option>';
 
@@ -62,12 +61,13 @@ selectRaca.addEventListener("change", function() {
     ftRace.style.backgroundImage = ImgRace[racaSelecionada];
 });
 
+
 sheetBtn.addEventListener('click',()=>{
     allCol.forEach(item=>{
      item.classList.remove('text-success')
     
-}
-)
+    }
+    )
     let arraySheet
  
     if(selectClass.value==="Escolha a Classe"||selectRaca.value==="Escolha a Raça")
@@ -77,10 +77,10 @@ sheetBtn.addEventListener('click',()=>{
     if(selectSubRaca.value==="Escolha a Sub-raça")
     {
 
-        arraySheet = genereteSheet(selectRaca.value,selectClass,sheet,numbers,positiveAtributes,racesAndSubracesAtributes,SubSheet)
+        arraySheet = genereteSheet(selectRaca.value,selectClass.value,sheet,numbers,positiveAtributes,racesAndSubracesAtributes,SubSheet)
     }else 
     {
-        arraySheet = genereteSheet(selectSubRaca.value,selectClass,sheet,numbers,positiveAtributes,racesAndSubracesAtributes,SubSheet)
+        arraySheet = genereteSheet(selectSubRaca.value,selectClass.value,sheet,numbers,positiveAtributes,racesAndSubracesAtributes,SubSheet)
     }
 
     let ficha =arraySheet[0]
