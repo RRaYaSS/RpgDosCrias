@@ -1,29 +1,36 @@
-/* css usado na view whitoutDesc e whithDesc*/
 body
 {
+    overflow: auto;
+}
+.conteinerFicha
+{
+    background-color: #f4e1c1;
+    min-width: 40rem;
+    min-height: 45rem;
+    max-width: 100rem;
+    max-height: 50rem;
+    border: 11px double #5c4033;
     overflow-y: auto;
     overflow-x: hidden; 
 }
-.containerPersonagen{
-    background-color: #f4e1c1;
-    width: 30rem;
-    height: 26rem;
-    border: 11px double #5c4033;
-}
-.containerPersonagen2{
+.containerAtributo{
     width: 100%;
     border-bottom: 3px double #5c4033;
     font-family: 'Algerian';
     
 }
-.containerPersonagen2:last-child{
+.containerAtributo:first-child
+{
     border-bottom: none;
 }
-.containerPersonagen2 p {
+.containerAtributo:last-child{
+    border-bottom: none;
+}
+.containerAtributo p {
     font-size: 1.2rem;
 
 }
-.containerPersonagen2 span{
+.containerAtributo span{
     font-size: 1rem;
 }
 .ftPerson{
@@ -37,7 +44,13 @@ body
     border: 15px groove #5c4033;
     border-radius: 12px;
 }
-.containerPerson
+
+.bonusDado
 {
-    padding-top: 20vh; 
+    width: 100%;
+    height: 1.8rem;
+}
+.containerFicha
+{
+    width: 100%;
 }

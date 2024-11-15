@@ -10,13 +10,6 @@ body
     background-attachment: fixed;
     background-size: cover;
 }
-.navbar
-{
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
 .btn
 {
     max-width: 7rem;
@@ -30,4 +23,8 @@ body
 {
     background-color: #a81e1e; 
     border-color: #a81e1e;
+}
+.form-select
+{
+    width: 19rem;
 }
