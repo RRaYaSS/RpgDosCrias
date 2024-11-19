@@ -2,115 +2,115 @@ export const racesAndSubracesAtributes=
 {
     "Tiefling":  
     {
-        Inteligência:1,
-        Carisma:2
+        'Inteligência':1,
+        'Carisma':2
     },
 
     "Meio-Orc":
     {
-        Força:2,
-        Constituição:1
+        'Força':2,
+        'Constituição':1
     },
 
     "Meio-Elfo": 
     {
-        Força:1,
-        Constituição:1,
-        Destreza:1,
-        Inteligência:1,
-        Sabedoria:1,
-        Carisma:2
+        'Força':1,
+        'Constituição':1,
+        'Destreza':1,
+        'Inteligência':1,
+        'Sabedoria':1,
+        'Carisma':2
     },
 
     "Humano": 
     {
-        Força:1,
-        Constituição:1,
-        Destreza:1,
-        Inteligência:1,
-        Sabedoria:1,
-        Carisma:1  
+        'Força':1,
+        'Constituição':1,
+        'Destreza':1,
+        'Inteligência':1,
+        'Sabedoria':1,
+        'Carisma':1  
     },
 
     "Gnomo da Floresta":
     {
-        Destreza:1,
-        Inteligência:2
+        'Destreza':1,
+        'Inteligência':2
     }, 
     "Gnomo das Rochas":
     {
-        Constituição:1,
-        Inteligência:2
+        'Constituição':1,
+        'Inteligência':2
     },
 
     "Pés Leves":
     {
-        Destreza:2,
-        Carisma:1
+        'Destreza':2,
+        'Carisma':1
     }, 
     "Robusto":
     {
-        Constituição:1,
-        Destreza:2
+        'Constituição':1,
+        'Destreza':2
     },
 
     "Draconato":
     {
-        Força:2,
-        Carisma:1
+        'Força':2,
+        'Carisma':1
     },
     
 
     "Alto Elfo":
     {
-        Destreza:2,
-        Inteligência:1
+        'Destreza':2,
+        'Inteligência':1
     },
     "Elfo da Floresta":
     {
-        Destreza:2,
-        Sabedoria:1
+        'Destreza':2,
+        'Sabedoria':1
     },
     "Elfo Negro":
     {
-        Destreza:2,
-        Carisma:1
+        'Destreza':2,
+        'Carisma':1
     },
 
     "Anão da Colina":
     {
-        Constituição:2,
-        Sabedoria:1
+        'Constituição':2,
+        'Sabedoria':1
     },
     "Anão da Montanha":
     {
-        Força:2,
-        Constituição:2
+        'Força':2,
+        'Constituição':2
     }
 }
 export const sheet= 
 {
-    Força:0,
-    Constituição:0,
-    Destreza:0,
-    Inteligência:0,
-    Sabedoria:0,
-    Carisma:0
+    'Força':0,
+    'Constituição':0,
+    'Destreza':0,
+    'Inteligência':0,
+    'Sabedoria':0,
+    'Carisma':0
 
 }
 export const SubSheet= 
 {
-    Força:
+    'Força':
     ["Atletismo ","Luta "],
-    Constituição:
+    'Constituição':
     ["Fôlego ","Resistencia "],
-    Destreza:
+    'Destreza':
     ["Acrobacia ","Furtividade ","Prestidigitação "],
-    Inteligência:
+    'Inteligência':
     ["Arcanismo ","História ","Investigação ","Natureza ","Religião "],
-    Sabedoria:
+    'Sabedoria':
     ["Adestrar Animais","Intuição ","Medicina ","Percepção ","Sobrevivência "],
-    Carisma:
+    'Carisma':
     ["Atuação ","Enganação ","Intimidação ","Persuasão "]
 
 }
@@ -120,7 +120,7 @@ export const positiveAtributes=
     "Bardo":["Carisma"],
     "Bruxo":["Carisma"],
     "Clérigo":["Sabedoria","Constituição","Força"],
-    "Druida":["Inteligência","Sabedoria "],
+    "Druida":["Inteligência","Sabedoria"],
     "Feiticeiro":["Carisma "],
     "Guerreiro":["Força","Destreza","Constituição"],
     "Ladino":["Destreza","Carisma"],
